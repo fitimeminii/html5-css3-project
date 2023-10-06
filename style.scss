@@ -1810,6 +1810,10 @@ footer {
             flex-direction: column;
             width: 100%;
 
+            .menuheader {
+                width: 100%;
+            }
+
             .menudishes {
                 width: 100%;
                 grid-template-columns: 1fr;
@@ -1829,6 +1833,10 @@ footer {
             width: 100%;
             flex-direction: column;
         }
+
+        .swiper {
+            width: 100%;
+        }
     }
 
     // EVENTS
@@ -1847,6 +1855,10 @@ footer {
             div:not(.pic3) {
                 display: none;
             }
+        }
+
+        .swiper {
+            width: 100%;
         }
     }
 
@@ -1904,6 +1916,10 @@ footer {
         }
       }
 }
+
+    .swiper {
+        width: 100%;
+    }
     }
 
     // CONTACT

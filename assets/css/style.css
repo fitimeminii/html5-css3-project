@@ -1545,6 +1545,9 @@ footer .container .copyright-container p a {
     flex-direction: column;
     width: 100%;
   }
+  #menu .container .menucontent .menuheader {
+    width: 100%;
+  }
   #menu .container .menucontent .menudishes {
     width: 100%;
     grid-template-columns: 1fr;
@@ -1557,6 +1560,9 @@ footer .container .copyright-container p a {
     width: 100%;
     flex-direction: column;
   }
+  #testimonials .container .swiper {
+    width: 100%;
+  }
   #events .container .events {
     text-align: center;
   }
@@ -1566,6 +1572,9 @@ footer .container .copyright-container p a {
   }
   #events .eventpics div:not(.pic3) {
     display: none;
+  }
+  #events .swiper {
+    width: 100%;
   }
   #chefs .container .chefcards {
     flex-direction: column;
@@ -1598,6 +1607,9 @@ footer .container .copyright-container p a {
   }
   #gallery .container .galleryimgs img:not(.active) {
     display: none;
+  }
+  #gallery .container .swiper {
+    width: 100%;
   }
   #contact .container .contactinfo {
     grid-template-columns: 1fr;
